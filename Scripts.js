@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const firstName = firstNameInput.value;
     const lastName = lastNameInput.value;
-    const message = commentTextInput.value;
+    const commentText = commentTextInput.value;
 
     // Crée un nouvel élément de liste pour le commentaire avec prénom et nom
     const commentItem = document.createElement("li");
